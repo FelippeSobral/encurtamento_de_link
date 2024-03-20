@@ -1,0 +1,26 @@
+{
+  "name": "encurtamento-de-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "setup": "tsx watch ./src/setup.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.29",
+    "tsx": "^4.7.1",
+    "typescipt": "^1.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "postgres": "^3.4.3",
+    "redis": "^4.6.13",
+    "typescript": "^5.4.2",
+    "zod": "^3.22.4"
+  }
+}

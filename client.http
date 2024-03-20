@@ -1,0 +1,16 @@
+POST http://localhost:2020/api/links
+Content-Type: application/json
+
+{
+    "code": "FelippeDev",
+    "url": "https://FelippeDev.com"
+}
+
+
+###
+
+GET http://localhost:2020/api/links
+
+###
+
+GET http://localhost:2020/FelippeDev
